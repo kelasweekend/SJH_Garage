@@ -1,0 +1,236 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    color: #232b2b;
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-nav .active {
+    color: #53354b;
+    font-weight: 700;
+    border-bottom: 4px #53354b solid;
+}
+
+.navbar .btn {
+    width: 200px;
+    padding-top: 13px;
+
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #53354b;
+}
+
+header .jumbo {
+    text-align: center;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+    background-image: url("/assets/img/bg.png");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h2 {
+    margin: 0 auto;
+    padding-top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 350px;
+}
+
+.service {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.service .text-center {
+    margin-bottom: 80px;
+}
+
+.service .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.service h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.benefit {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.benefit .bg-benefit {
+    background-color: #7597B7;
+    width: 80%;
+    height: 300px;
+    border-radius: 0px 15px 15px 0px;
+    margin-bottom: 60px;
+}
+
+.benefit .bg-benefit p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FEFEFE;
+    margin-top: 20px;
+}
+
+.benefit .bg-benefit h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 500px;
+    color: #FEFEFE;
+}
+
+.benefit .card {
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    height: 220px;
+}
+
+.galery {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.galery .carousel .carousel-inner .carousel-item img {
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.join {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.join h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.join .btn {
+    width: 200px;
+    padding-top: 13px;
+
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #53354b;
+}
+
+.catalog {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.catalog .card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 #ccd0d9;
+}
+
+.catalog .card img {
+    max-width: 100%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.catalog .card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.checkout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.checkout .ui-w-40 {
+    width: 40px !important;
+    height: auto;
+}
+
+.checkout .card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 #ccd0d9;
+}
+
+.checkout .card .btn-primary {
+    width: 200px;
+    padding-top: 8px;
+
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #53354b;
+}
+
+.booking {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.booking .card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 #ccd0d9;
+}
+
+.booking h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left;
+    color: #53354b;
+}
+
+.booking .card form .btn {
+    width: 100%;
+    padding-top: 8px;
+    margin-top: 25px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #53354b;
+}
