@@ -1,11 +1,8 @@
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
+<p align="center"><img src="https://raw.githubusercontent.com/kelasweekend/SJH_Garage/master/assets/img/logo.png" width="400" alt="SJH Garage"></p>
 
 ### SJH Garage Production
 
 Platfrom Untuk Bengkel Yang Terintegrasi Marketplace dengan metode pembayaran virtual menggunakan Midtrans Payment Gateway
-
 
 ### Tech Stack
 
@@ -15,8 +12,6 @@ Platfrom Untuk Bengkel Yang Terintegrasi Marketplace dengan metode pembayaran vi
 
 **Database:** Mysql MariaDB
 
-
 ### Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
